@@ -1,8 +1,8 @@
 const routes = {
-  '/': '/pages/home.html',
-  '/projetos': '/pages/projetos.html',
-  '/cadastro': '/pages/cadastro.html',
-  '/transparencia': '/pages/transparencia.html'
+  '/': './pages/home.html',
+  '/projetos': './pages/projetos.html',
+  '/cadastro': './pages/cadastro.html',
+  '/transparencia': './pages/transparencia.html'
 };
 
 let currentController = null;
